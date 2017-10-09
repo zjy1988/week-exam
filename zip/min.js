@@ -1,0 +1,2 @@
+function fn1(r){for(var n=[],a=0;a<r.length;a++)-1===n.indexOf(r[a])&&n.push(r[a]);return"原数组："+r+"  去重后的数组："+n}var arr=["a","v","b","c","a","c","b","d"];console.log(fn1(arr));
+function fn2(r){for(var n=[],a={},o=0;o<r.length;o++)a[r[o]]||(n.push(r[o]),a[r[o]]=1);return n}var arr=["a","v","b","c","a","c","b","d"];console.log(fn2(arr));

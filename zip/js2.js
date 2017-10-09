@@ -1,0 +1,1 @@
+function fn2(r){for(var n=[],a={},o=0;o<r.length;o++)a[r[o]]||(n.push(r[o]),a[r[o]]=1);return n}var arr=["a","v","b","c","a","c","b","d"];console.log(fn2(arr));
